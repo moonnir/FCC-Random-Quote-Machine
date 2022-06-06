@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - FCC : Random Quote Machine</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">"
+
+<div class="container">
+  <div class="row py-5">
+    <div class="col-md-8 offset-md-2">
+      <wrapper id="quote-box">
+        <div class="card">
+          <div class="card-header">
+            Random Quote Machine
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">
+              <div id="text"></div>
+            </h5>
+            <p class="card-text">
+            <div id="author"></div>
+            </p>
+            <button id="new-quote" class="btn btn-block btn-success" onClick="generateQuote();">New Quote</button>
+            <a id="tweet-quote" href="#" target="_blank" class="btn btn-block btn-primary"><i class="fa fa-twitter">Tweet Quote</i></a>
+          </div>
+        </div>
+      </wrapper>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
